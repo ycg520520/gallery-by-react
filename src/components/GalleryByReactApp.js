@@ -217,7 +217,7 @@ class GalleryByReactApp extends React.Component {
 			imgH     = imgFigureDOM.scrollHeight,
 			halfImgW = Math.ceil(imgW / 2),
 			halfImgH = Math.ceil(imgH / 2);
-		console.log(this.Constant)
+
 		// 计算中心图片的位置点
 		this.Constant.centerPos = {
 			left: halfStageW - halfImgW,
